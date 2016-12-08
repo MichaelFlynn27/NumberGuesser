@@ -48,43 +48,4 @@ reset.addEventListener("click", function () {
 userInput.addEventListener("keyup", function () {
   clear.disabled = false;
   reset.disabled = false;
-}
-)
-
-
-
-
-
-
-
-    // function outOfRange (){
-    // else (userInput > maxNum || userInput < minNum){
-    //   alert("OUT OF RANGE")
-
-
-
-
-
-
-
-
-
-
-  // * The application should display an error if
-  // the guess is outside of the range of possible answers.
-
-
-
-
-
-
-//   if (userNumber < computerNumber){
-//     response1.innerText = "That is too low"
-//   } else if (computerNumber > userNumber){
-//     response1.innerText = "That is too high"
-//   } else if (computerNumber === userNumber){
-//     response1.innerText = "BOOM!"
-//   }  else (isNaN(parse)){
-//     response1.innerText = "Not A Number"
-//   }
-// }
+})
