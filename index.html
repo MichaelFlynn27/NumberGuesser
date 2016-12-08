@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <head>
+    <title>NumberGuesser</title>
+    <link text="text/css" rel="stylesheet" href="reset.css">
+    <link text="text/css" rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+  <body>
+  <nav>
+    <h1><span>Number</span> Guesser</h1>
+  </nav>
+  <section>
+  <input class="input" type="number" placeholder="Enter Your Guess"></input>
+</section>
+<section>
+  <!-- <input id="guess" type="button">guess</input>
+  <input id="clear" type="button" disabled>clear</input> -->
+  <section class="buttoncontainer">
+  <button id="guess">guess</button>
+  <button id="clear" disabled>clear</button>
+</section>
+<section class="inputcontainer">
+  <input id="min" type="number" placeholder=Min></input>
+  <input id="max" type="number" placeholder=Max></input>
+</section>
+</section>
+<section class="wordcontainer">
+  <p class="guessnumber"></p>
+  <p class= "response"></p>
+</section>
+  <button id="resetgame" type="button" disabled>reset</button>
+  <!-- <input id="resetgame" type="button" disabled>reset</input> -->
+  <script src="cs.js"></script>
+</body>
+</html>
